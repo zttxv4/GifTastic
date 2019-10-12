@@ -12,6 +12,8 @@
       margin: 10px;
     }
   </style>
+  <link src="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,8 +25,10 @@
     <form class="gif-search">
         <label for="gif-input">Add a TV Show</label>
         <input type="text" id="gif-input">
-        <input id="add-show" type="submit" value="Submit">
+        <input type="button" id="add-show" class="btn btn-success" value="Submit"></input>
     </form>
+
+    <div id="gifs-here"></div>
 
 
 
